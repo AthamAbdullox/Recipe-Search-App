@@ -1,0 +1,4 @@
+d:
+cd vscodegroup
+cd experiment-auth-2
+npm start

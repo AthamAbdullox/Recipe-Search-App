@@ -1,0 +1,72 @@
+Auto-complete
+
+const options = {
+  method: 'GET',
+  url: 'https://tasty.p.rapidapi.com/recipes/auto-complete',
+  params: {prefix: '<REQUIRED>'},
+  headers: {
+    'x-rapidapi-key': '79d55e6135msh32b4af25cbeedd5p14a581jsn1c7792f0f9df',
+    'x-rapidapi-host': 'tasty.p.rapidapi.com'
+  }
+};
+
+
+list 
+
+const options = {
+  method: 'GET',
+  url: 'https://tasty.p.rapidapi.com/recipes/list',
+  params: {from: '0', size: '20', tags: 'under_30_minutes'},
+  headers: {
+    'x-rapidapi-key': '79d55e6135msh32b4af25cbeedd5p14a581jsn1c7792f0f9df',
+    'x-rapidapi-host': 'tasty.p.rapidapi.com'
+  }
+};
+
+detail
+
+const options = {
+  method: 'GET',
+  url: 'https://tasty.p.rapidapi.com/recipes/detail',
+  params: {id: '1111'},
+  headers: {
+    'x-rapidapi-key': '79d55e6135msh32b4af25cbeedd5p14a581jsn1c7792f0f9df',
+    'x-rapidapi-host': 'tasty.p.rapidapi.com'
+  }
+};
+
+
+tags/list
+
+const options = {
+  method: 'GET',
+  url: 'https://tasty.p.rapidapi.com/tags/list',
+  headers: {
+    'x-rapidapi-key': '79d55e6135msh32b4af25cbeedd5p14a581jsn1c7792f0f9df',
+    'x-rapidapi-host': 'tasty.p.rapidapi.com'
+  }
+};
+
+feeds/list
+
+const options = {
+  method: 'GET',
+  url: 'https://tasty.p.rapidapi.com/feeds/list',
+  params: {from: '0', vegetarian: '<REQUIRED>', timezone: '+0700', size: '20'},
+  headers: {
+    'x-rapidapi-key': '79d55e6135msh32b4af25cbeedd5p14a581jsn1c7792f0f9df',
+    'x-rapidapi-host': 'tasty.p.rapidapi.com'
+  }
+};
+
+recipes/list-similarities
+
+const options = {
+  method: 'GET',
+  url: 'https://tasty.p.rapidapi.com/recipes/list-similarities',
+  params: {recipe_id: '1111'},
+  headers: {
+    'x-rapidapi-key': '79d55e6135msh32b4af25cbeedd5p14a581jsn1c7792f0f9df',
+    'x-rapidapi-host': 'tasty.p.rapidapi.com'
+  }
+};

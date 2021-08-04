@@ -1,0 +1,23 @@
+.form {
+    padding-left: 40px;
+    padding-right:40px;
+}
+
+.scene {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Card {
+    margin:2em .5rem;
+
+}
+
+.CardBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
